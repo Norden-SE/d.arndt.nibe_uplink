@@ -1,0 +1,23 @@
+		public function update() {
+
+			
+			$provider = $this->GetProvider();
+			
+			$existingAccessToken = new League\OAuth2\Client\Token\AccessToken(
+				json_decode($this->ReadAttributeString("Token"), true) 
+			);
+			
+			$this->SendDebug('Expired in', date("Y-m-d\TH:i:s",$existingAccessToken->getExpires()), 0);
+			$this->SendDebug('refresh_token', $existingAccessToken->getRefreshToken(), 0);
+//			if ($existingAccessToken->hasExpired()) {
+			$newAccessToken = $provider->getAccessToken('refresh_token', [
+			'refresh_token' => $existingAccessToken->getRefreshToken()
+    		]);
+			$this->SendDebug('newrefresh_token', $newAccessToken->getRefreshToken(), 0);
+//			
+			$this->WriteAttributeString("Token", json_encode($newAccessToken));
+			$this->SendDebug('new Access Token', $newAccessToken->getToken(), 0);
+//			}
+    // Purge old access token and store new access token to your data store.
+//		}
+	}

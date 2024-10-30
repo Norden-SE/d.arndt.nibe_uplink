@@ -1,0 +1,14 @@
+{
+    "id": "{E52AE49B-100E-1DA3-BFC1-1A6831701409}",
+    "name": "Nibe_uplink",
+    "type": 0,
+    "vendor": "Nibe",
+    "aliases": [
+        "Nibe Uplink"
+    ],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "NIB",
+    "url": ""
+}

@@ -1,0 +1,18 @@
+{
+	"elements": [
+		{ "type": "ValidationTextBox", "name": "ClientID", "caption": "ClientID", "width": "600px" },
+		{ "type": "ValidationTextBox", "name": "ClientSecret", "caption": "ClientSecret", "width": "600px" },
+		{ "type": "ValidationTextBox", "name": "AuthorizeUri", "caption": "AuthorizeUri", "width": "600px" },
+		{ "type": "ValidationTextBox", "name": "TokenUri", "caption": "TokenUri", "width": "600px" },
+		{ "type": "ValidationTextBox", "name": "Scopes", "caption": "Scopes", "width": "600px" },
+		{ "type": "NumberSpinner", "name" : "UpdateIntervall", "caption" : "Aktualisirungsintervall","suffix" : "Minuten"}
+	],
+	"actions":
+	[
+		{ "type": "Button", "label": "Register", "onClick": "echo NIB_Register($id);" },
+		{ "type": "ValidationTextBox", "caption": "Redirect-Uri", "value": "", "width": "600px"},
+		{ "type": "Label", "name": "Token", "caption": "Token" },
+		{ "type": "ValidationTextBox", "caption": "Test-Uri", "name": "TestUri", "width": "600px"},
+		{ "type": "Button", "label": "Test API", "onClick": "echo NIB_Request($id,$TestUri);" }
+	]
+}
