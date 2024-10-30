@@ -16,9 +16,9 @@
 
 			$this->RegisterPropertyString("ClientID", "");
 			$this->RegisterPropertyString("ClientSecret", "");
-			$this->RegisterPropertyString("AuthorizeUri", "");
-			$this->RegisterPropertyString("TokenUri", "");
-			$this->RegisterPropertyString("Scopes", "");
+			$this->RegisterPropertyString("AuthorizeUri", "https://api.myuplink.com/oauth/authorize");
+			$this->RegisterPropertyString("TokenUri", "https://api.myuplink.com/oauth/token");
+			$this->RegisterPropertyString("Scopes", "READSYSTEM WRITESYSTEM offline_access");
 
 			$this->RegisterAttributeString("Token", "");
 			$this->RegisterPropertyInteger("UpdateIntervall", 30);
