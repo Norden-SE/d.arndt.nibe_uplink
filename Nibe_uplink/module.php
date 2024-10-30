@@ -21,7 +21,7 @@
 			$this->RegisterPropertyString("Scopes", "READSYSTEM WRITESYSTEM offline_access");
 
 			$this->RegisterAttributeString("Token", "");
-			$this->RegisterPropertyInteger("UpdateIntervall", 30);
+			$this->RegisterPropertyInteger("UpdateIntervall", 0);
 			$this->RegisterTimer("refreshToken", 0,'NIB_update('. $this->InstanceID .');');
 		}
 	
