@@ -1,3 +1,5 @@
+<?php
+
 // Klassendefinition
 class Nibe_F750 extends IPSModule {
     // Überschreibt die interne IPS_Create($id) Funktion
