@@ -1,7 +1,8 @@
 {
     "elements":
     [
-        { "type": "ValidationTextBox", "name": "Geraete_ID", "caption": "Geräte ID" }
+        { "type": "ValidationTextBox", "name": "Geraete_ID", "caption": "Geräte ID" },
+        { "type": "ValidationTextBox", "name": "System_ID", "caption": "System ID" }
 
         
     ],
