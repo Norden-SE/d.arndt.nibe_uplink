@@ -1,5 +1,5 @@
 // Klassendefinition
-class ModulnameXYZ extends IPSModule {
+class Nibe_F750 extends IPSModule {
     // Überschreibt die interne IPS_Create($id) Funktion
     public function Create() {
         // Diese Zeile nicht löschen.
