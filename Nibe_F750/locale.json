@@ -1,0 +1,16 @@
+{
+    "translations": {
+        "de": { 
+            "Zu übersetzendes Wort 1": "Übersetzung ins Deutsche - Wort 1",
+            "Zu übersetzendes Wort 2": "Übersetzung ins Deutsche - Wort 2"
+        },
+        "de_DE": {
+            "Zu übersetzendes Wort 1": "Übersetzung ins Deutsche - Wort 1",
+            "Zu übersetzendes Wort 2": "Übersetzung ins Deutsche - Wort 2"
+        },
+        "de_CH": {
+            "Zu übersetzendes Wort 1": "Übersetzung ins Schwiizerdütsch - Wort 1",
+            "Zu übersetzendes Wort 2": "Übersetzung ins Schwiizerdütsch - Wort 2"
+        }
+    }
+}
