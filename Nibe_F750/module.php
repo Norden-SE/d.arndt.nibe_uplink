@@ -8,7 +8,6 @@ class Nibe_F750 extends IPSModule {
         parent::Create();
 
         $this->RegisterVariableFloat("Raumtemperatur", "Raumtemperatur", "", 0);
-        $this->EnableAction("ActionVariable");
     }
     
     public function RequestAction($Ident, $Value) {
