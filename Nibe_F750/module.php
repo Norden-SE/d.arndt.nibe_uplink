@@ -23,6 +23,9 @@ class Nibe_F750 extends IPSModule {
         $this->UpdateFormField('Label', 'caption', 'invalid'); // nicht ok
     }
     
+    public function Reload() {
+        $this->ReloadForm();
+    }
 
     // Überschreibt die intere IPS_ApplyChanges($id) Funktion
     public function ApplyChanges() {
