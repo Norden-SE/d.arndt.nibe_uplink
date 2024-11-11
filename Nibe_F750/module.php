@@ -8,6 +8,10 @@ class Nibe_F750 extends IPSModule {
         parent::Create();
 
         $this->RegisterVariableFloat("Raumtemperatur", "Raumtemperatur", "", 0);
+        $this->RegisterVariableFloat("Außentemperatur", "Außentemperatur", "", 0);
+        $this->RegisterVariableInteger("Verdichterfrequenz", "Verdichterfrequenz", "", 0);
+        $this->RegisterVariableString("Verdichtersatus", "Verdichterstatus", "", 0);
+        $this->RegisterVariableString("Zusatzheizung", "Zusatzheizung", "", 0);
     }
     
     public function RequestAction($Ident, $Value) {
@@ -38,7 +42,9 @@ class Nibe_F750 extends IPSModule {
     * ABC_MeineErsteEigeneFunktion($id);
     *
     */
-    public function MeineErsteEigeneFunktion() {
-        // Selbsterstellter Code
+    public function fetch_data() {
+        $data = NIB_Request(10725,"https://api.myuplink.com/v2/devices/emmy-r-104101-20240219-06601513219020-00-04-a3-f0-74-89/points");
+        $json = json_decode($data,true);
+        print_r($json);
     }
 }

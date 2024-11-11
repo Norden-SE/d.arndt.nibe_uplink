@@ -6,9 +6,9 @@
     "aliases": [
         "Nibe WP F750"
     ],
-    "parentRequirements": [],
+    "parentRequirements": ["{E52AE49B-100E-1DA3-BFC1-1A6831701409}"],
     "childRequirements": [],
-    "implemented": [],
+    "implemented": ["{F4131A07-09C2-7979-6F2F-252A5066F900}","{E52AE49B-100E-1DA3-BFC1-1A6831701409}"],
     "prefix": "NIG",
     "url": ""
 }
