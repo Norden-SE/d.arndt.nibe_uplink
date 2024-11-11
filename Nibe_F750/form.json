@@ -24,7 +24,7 @@
                 "caption": "Dynamic Configurator",
                 "rowCount": 3
             },
-            }  
+            {    
             "type": "RowLayout",
                     "items": [
                         {
@@ -73,7 +73,7 @@
 
             }
                     
-        ],
+    ],
     
     "status":
     [
