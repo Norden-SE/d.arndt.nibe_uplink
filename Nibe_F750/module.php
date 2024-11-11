@@ -12,6 +12,7 @@ class Nibe_F750 extends IPSModule {
         $this->RegisterVariableInteger("Verdichterfrequenz", "Verdichterfrequenz", "", 0);
         $this->RegisterVariableString("Verdichtersatus", "Verdichterstatus", "", 0);
         $this->RegisterVariableString("Zusatzheizung", "Zusatzheizung", "", 0);
+        $this->ConnectParent("{E52AE49B-100E-1DA3-BFC1-1A6831701409}");
     }
     
     public function RequestAction($Ident, $Value) {
