@@ -8,16 +8,7 @@
     ],
     "actions":
     [
-        {
-            "type": "ExpansionPanel",
-            "caption": "Configurator",
-            "items": [
-                {
-                    "type": "Configurator",
-                    "name": "Configurator",
-                    "caption": "Dynamic Configurator",
-                    "rowCount": 3
-                },
+    
                 {
                     "type": "RowLayout",
                     "items": [
