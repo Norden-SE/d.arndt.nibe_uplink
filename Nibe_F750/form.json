@@ -8,7 +8,60 @@
     ],
     "actions":
     [
-    
+        {
+            "type": "ExpansionPanel",
+            "caption": "Configurator",
+            "items": [
+                {
+                    "type": "Configurator",
+                    "name": "Configurator",
+                    "caption": "Dynamic Configurator",
+                    "rowCount": 3
+                },
+                {
+                    "type": "RowLayout",
+                    "items": [
+                        {
+                            "type": "Button",
+                            "caption": "Visible = true",
+                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"visible\", true);"
+                        },
+                        {
+                            "type": "Button",
+                            "caption": "Visible = false",
+                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"visible\", false);"
+                        },
+                        {
+                            "type": "Button",
+                            "caption": "Caption = Test",
+                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"caption\", \"Test\");"
+                        },
+                        {
+                            "type": "Button",
+                            "caption": "Caption = Wow, so dynamic",
+                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"caption\", \"Wow, so dynamic\");"
+                        },
+                        {
+                            "type": "Button",
+                            "caption": "Delete = true",
+                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"delete\", true);"
+                        },
+                        {
+                            "type": "Button",
+                            "caption": "Delete = false",
+                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"delete\", false);"
+                        },
+                        {
+                            "type": "Button",
+                            "caption": "RowCount = 3",
+                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"rowCount\", 3);"
+                        },
+                        {
+                            "type": "Button",
+                            "caption": "RowCount = 7",
+                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"rowCount\", 7);"
+                        }
+                    
     ],
     "status":
     [
