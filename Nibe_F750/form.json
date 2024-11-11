@@ -13,7 +13,12 @@
             "caption": "Reload form",
             "onClick": "NIG_Reload($id);"
         },
-                {
+        {
+            "type": "ExpansionPanel",
+            "caption": "Button",
+            "items": [
+            {
+                
                     "type": "RowLayout",
                     "items": [
                         {
@@ -58,6 +63,7 @@
                         }
                    ]
                 }
+            
                     
     ],
     "status":
