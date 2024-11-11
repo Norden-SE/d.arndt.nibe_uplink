@@ -8,7 +8,11 @@
     ],
     "actions":
     [
-    
+        {
+            "type": "Button",
+            "caption": "Reload form",
+            "onClick": "DT_Reload($id);"
+        },
                 {
                     "type": "RowLayout",
                     "items": [
