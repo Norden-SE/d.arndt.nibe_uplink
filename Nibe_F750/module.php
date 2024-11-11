@@ -8,7 +8,7 @@ class Nibe_F750 extends IPSModule {
         parent::Create();
 
         $this->RegisterVariableFloat("Raumtemperatur", "Raumtemperatur", "", 0);
-        $this->RegisterVariableFloat("Außentemperatur", "Außentemperatur", "", 0);
+        $this->RegisterVariableFloat("Aussentemperatur", "Außentemperatur", "", 0);
         $this->RegisterVariableInteger("Verdichterfrequenz", "Verdichterfrequenz", "", 0);
         $this->RegisterVariableString("Verdichtersatus", "Verdichterstatus", "", 0);
         $this->RegisterVariableString("Zusatzheizung", "Zusatzheizung", "", 0);
