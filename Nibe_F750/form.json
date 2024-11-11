@@ -61,6 +61,8 @@
                             "caption": "RowCount = 7",
                             "onClick": "DT_UpdateParameter($id, \"Configurator\", \"rowCount\", 7);"
                         }
+                   ]
+                }
                     
     ],
     "status":
