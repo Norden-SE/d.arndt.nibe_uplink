@@ -95,7 +95,7 @@
                         {
                             "type": "Button",
                             "caption": "Values = 3 Dummies",
-                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"values\", json_encode([['name' => 'Dummy 1', 'address' => '#1', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 3', 'address' => '#3', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]]]));"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"values\", json_encode([['name' => 'Raumtemperatur', 'address' => '#1', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Raumtemperatur', 'address' => '#3', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]]]));"
                         },
                         {
                             "type": "Button",
