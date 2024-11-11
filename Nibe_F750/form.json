@@ -75,37 +75,37 @@
                         {
                             "type": "Button",
                             "caption": "Columns = Hidden Address",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"columns\", json_encode([['caption' => 'Address', 'name' => 'address', 'width' => '0px', 'visible' => false ], [ 'caption' => 'Name', 'name' => 'name', 'width' => 'auto' ] ]));"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"columns\", json_encode([['caption' => 'Address', 'name' => 'address', 'width' => '0px', 'visible' => false ], [ 'caption' => 'Name', 'name' => 'name', 'width' => 'auto' ] ]));"
                         },
                         {
                             "type": "Button",
                             "caption": "Columns = Displayed Address",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"columns\", json_encode([['caption' => 'Address', 'name' => 'address', 'width' => '250px'], [ 'caption' => 'Name', 'name' => 'name', 'width' => 'auto' ] ]));"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"columns\", json_encode([['caption' => 'Address', 'name' => 'address', 'width' => '250px'], [ 'caption' => 'Name', 'name' => 'name', 'width' => 'auto' ] ]));"
                         },
                         {
                             "type": "Button",
                             "caption": "Sort = Name Ascending",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"sort\", json_encode(['column' => 'name', 'direction' => 'ascending' ]));"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"sort\", json_encode(['column' => 'name', 'direction' => 'ascending' ]));"
                         },
                         {
                             "type": "Button",
                             "caption": "Sort = None",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"sort\", \"{}\");"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"sort\", \"{}\");"
                         },
                         {
                             "type": "Button",
                             "caption": "Values = 3 Dummies",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"values\", json_encode([['name' => 'Dummy 1', 'address' => '#1', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 3', 'address' => '#3', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]]]));"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"values\", json_encode([['name' => 'Dummy 1', 'address' => '#1', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 3', 'address' => '#3', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]]]));"
                         },
                         {
                             "type": "Button",
                             "caption": "Values = 10 Dummies",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"values\", json_encode([['name' => 'Dummy 1', 'address' => '#1', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 3', 'address' => '#3', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]]]));"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"values\", json_encode([['name' => 'Dummy 1', 'address' => '#1', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 3', 'address' => '#3', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]], ['name' => 'Dummy 2', 'address' => '#2', 'create' => [ 'moduleID' => '{485D0419-BE97-4548-AA9C-C083EB82E61E}', 'configuration' => new stdClass() ]]]));"
                         },
                         {
                             "type": "Button",
                             "caption": "Values = Empty",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"values\", \"[]\");"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"values\", \"[]\");"
                         }
                     ]
                 }
