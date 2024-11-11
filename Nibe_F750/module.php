@@ -44,7 +44,7 @@ class Nibe_F750 extends IPSModule {
     */
 
     public function fetch_data() {
-        $data = NIB_Request(GetIDForIdent("Nibe_uplink"),"https://api.myuplink.com/v2/devices/emmy-r-104101-20240219-06601513219020-00-04-a3-f0-74-89/points");
+        $data = NIB_Request(@IPS_GetObjectIDByName("Nibe_uplink", $ParentID),"https://api.myuplink.com/v2/devices/emmy-r-104101-20240219-06601513219020-00-04-a3-f0-74-89/points");
         $json = json_decode($data,true);
         print_r($json);
     }
