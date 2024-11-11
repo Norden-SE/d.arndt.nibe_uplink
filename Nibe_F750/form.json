@@ -11,7 +11,7 @@
         {
             "type": "Button",
             "caption": "Reload form",
-            "onClick": "DT_Reload($id);"
+            "onClick": "NIG_Reload($id);"
         },
                 {
                     "type": "RowLayout",
@@ -19,42 +19,42 @@
                         {
                             "type": "Button",
                             "caption": "Visible = true",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"visible\", true);"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"visible\", true);"
                         },
                         {
                             "type": "Button",
                             "caption": "Visible = false",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"visible\", false);"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"visible\", false);"
                         },
                         {
                             "type": "Button",
                             "caption": "Caption = Test",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"caption\", \"Test\");"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"caption\", \"Test\");"
                         },
                         {
                             "type": "Button",
                             "caption": "Caption = Wow, so dynamic",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"caption\", \"Wow, so dynamic\");"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"caption\", \"Wow, so dynamic\");"
                         },
                         {
                             "type": "Button",
                             "caption": "Delete = true",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"delete\", true);"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"delete\", true);"
                         },
                         {
                             "type": "Button",
                             "caption": "Delete = false",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"delete\", false);"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"delete\", false);"
                         },
                         {
                             "type": "Button",
                             "caption": "RowCount = 3",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"rowCount\", 3);"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"rowCount\", 3);"
                         },
                         {
                             "type": "Button",
                             "caption": "RowCount = 7",
-                            "onClick": "DT_UpdateParameter($id, \"Configurator\", \"rowCount\", 7);"
+                            "onClick": "NIG_UpdateParameter($id, \"Configurator\", \"rowCount\", 7);"
                         }
                    ]
                 }
