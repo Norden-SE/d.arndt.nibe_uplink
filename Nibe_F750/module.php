@@ -7,7 +7,7 @@ class Nibe_F750 extends IPSModule {
         // Diese Zeile nicht löschen.
         parent::Create();
 
-        $this->RegisterVariableBoolean("ActionVariable", "Action Variable", "~Switch", $id);
+        $this->RegisterVariableBoolean("Raumtemperatur", "Raumtemperatur", "", 0);
         $this->EnableAction("ActionVariable");
     }
     
