@@ -21,8 +21,8 @@ Beschreibung des Moduls.
 
 ### 3. Software-Installation
 
-* Über den Module Store das 'Nibe_uplink'-Modul installieren.
 * Alternativ über das Module Control folgende URL hinzufügen
+* https://github.com/Norden-SE/d.arndt.nibe_uplink
 
 ### 4. Einrichten der Instanzen in IP-Symcon
 
